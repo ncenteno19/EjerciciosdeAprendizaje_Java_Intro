@@ -28,15 +28,22 @@ public class Ejercicio9 {
         
         String frase = leer.nextLine();
         
-        frase = frase.toUpperCase();
+        frase = frase.toUpperCase(); // pasa frase a mayuscula
         
         
-        if (frase.substring(0,1).equals("A")){
+        if (frase.startsWith("A")){
             System.out.println("CORRECTO");
         }
         else {
             System.out.println("INCORRECTO");
         }
+        
+       /* if (frase.substring(0,1).equals("A")){
+            System.out.println("CORRECTO");
+        }
+        else {
+            System.out.println("INCORRECTO");
+        }*/
     }
     
 }
